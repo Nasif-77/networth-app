@@ -1,0 +1,15 @@
+
+    .accountSummary {
+        padding: 3%;
+        display: grid;
+        grid-template: 1fr / 2fr 1fr;
+
+        .barChart {
+            padding: 3%;
+            background-color: rgb(175, 218, 255);
+
+            canvas {
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    }
